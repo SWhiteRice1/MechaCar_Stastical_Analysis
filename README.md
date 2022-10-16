@@ -16,9 +16,11 @@ Above you can see a total summary created with mean, median, variance, and stand
 
 ## T-Tests on Suspension Coils
 Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
 ![ttest](https://user-images.githubusercontent.com/106640154/196055369-87e4da7f-1798-4db8-91cc-b9ca356f6ccc.png)
 
 According to the above T tests of the total PSI across all manufacturing lots, they are all statstically similar to the population mean of 1500 pounds per square inch. This is obvious due to the p value being greater than .05 and the mean of x being defined as 1498.
+
 ![lot1_ttest](https://user-images.githubusercontent.com/106640154/196055372-fbd05162-a74d-4c2e-a29c-be9d45141a0d.png)
 ![lot2_ttest](https://user-images.githubusercontent.com/106640154/196055375-fccd03f7-3879-400a-8644-732d85e8842f.png)
 ![lot3_ttest](https://user-images.githubusercontent.com/106640154/196055384-a2479e7c-4fb5-484c-bede-610a6a7569b0.png)
