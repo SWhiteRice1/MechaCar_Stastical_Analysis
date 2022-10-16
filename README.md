@@ -17,3 +17,5 @@ Perform t-tests to determine if all manufacturing lots and each lot individually
 According to the above T tests of the total PSI across all manufacturing lots, they are all statstically similar to the population mean of 1500 pounds per square inch. This is obvious due to the p value being greater than .05 and the mean of x being defined as 1498.
 
 Additionally, the t tests performed on lots 1-3 reveal that lot 1 and 2 are within the 1500 pounds means; however, lot 3 reveals a p value of less than .05 and a mean of 1496 being just sht of the 1500 population mean.
+
+## Study Design: MechaCar vs Competition
