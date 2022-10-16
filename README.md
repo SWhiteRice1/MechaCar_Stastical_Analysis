@@ -19,12 +19,23 @@ Perform t-tests to determine if all manufacturing lots and each lot individually
 
 ![ttest](https://user-images.githubusercontent.com/106640154/196055369-87e4da7f-1798-4db8-91cc-b9ca356f6ccc.png)
 
-According to the above T tests of the total PSI across all manufacturing lots, they are all statstically similar to the population mean of 1500 pounds per square inch. This is obvious due to the p value being greater than .05 and the mean of x being defined as 1498.
+According to the above one-sample T tests of the total PSI across all manufacturing lots, they are all statstically similar to the population mean of 1500 pounds per square inch. This is obvious due to the p value being greater than .05 and the mean of x being defined as 1498.
 
 ![lot1_ttest](https://user-images.githubusercontent.com/106640154/196055372-fbd05162-a74d-4c2e-a29c-be9d45141a0d.png)
 ![lot2_ttest](https://user-images.githubusercontent.com/106640154/196055375-fccd03f7-3879-400a-8644-732d85e8842f.png)
 ![lot3_ttest](https://user-images.githubusercontent.com/106640154/196055384-a2479e7c-4fb5-484c-bede-610a6a7569b0.png)
 
-Additionally, the t tests performed on lots 1-3 reveal that lot 1 and 2 are within the 1500 pounds means; however, lot 3 reveals a p value of less than .05 and a mean of 1496 being just sht of the 1500 population mean.
+Additionally, the t tests performed on lots 1-3 reveal that lot 1 and 2 are within the 1500 pounds means; however, lot 3 reveals a p value of less than .05 and a mean of 1496 being just sht of the 1500 population mean. 
 
 ## Study Design: MechaCar vs Competition
+To determine if MechaCar can outrun and outlast the competition on cost, fuel efficiency, horsepower, maintenance cost, and safety ratings comprehensive statistical testing needs to be completed. Ideally, the MechaCar should beat the competition in safety ratings.
+
+What metric or metrics are you going to test?
+- Safety Rating as an independent variable.
+What is the null hypothesis or alternative hypothesis?
+- Safety rating on MechaCar beats or is equal to the population safety rating mean
+- Cost on MechaCar 
+What statistical test would you use to test the hypothesis? And why?
+-Run a on-Sample t test on the MechaCar saefty ratings compared to the population mean. T
+What data is needed to run the statistical test?
+- safety tests run on the MechaCar as well as the population mean of safety ratings.
